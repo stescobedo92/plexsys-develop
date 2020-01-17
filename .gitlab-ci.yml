@@ -1,0 +1,20 @@
+image: php:7.2
+
+before_script:
+  - set -xe
+  - apt-get update -yqq
+  - apt-get install git -yqq
+  # - docker-php-ext-install pdo_mysql
+  - apt-get install -y -qq sshpass
+
+
+
+deploy_stage:
+  stage: deploy
+  environment: Staging
+  only:
+    - master
+  script:
+    - sshpass -V
+    - export SSHPASS=$SSH_PASS
+    - sshpass -p $SSHPASS ssh -p 21098 -o StrictHostKeyChecking=no $SSH_USER@daxslab.com "cd public_plexsys.daxslab.com/; git reset --hard; git pull https://$GIT_USER:$GIT_PASS@code.daxslab.com/daxslab/plexsys/plexsys.git master; /opt/alt/php72/usr/bin/php composer.phar update;"

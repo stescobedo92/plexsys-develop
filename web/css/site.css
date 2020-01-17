@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Lexend Peta';
+    src: url('../fonts/LexendPeta-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    padding-top: 84px;
+    font-family: "Lexend Peta", sans-serif;
+}
+
+.page > header{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*** Definiendo reglas para el los headers de cada pages ****/
+
+#site-index > header{
+    background-image: url(../images/inicio.jpg);
+}
+
+#site-portafolio > header{
+    background-image: url(../images/inicio.jpg);
+}
+
+#site-software > header{
+    background-image: url(../images/soft.jpg);
+}
+
+#site-websites > header{
+    background-image: url(../images/sitios_web.jpg);
+}
+
+#site-apps > header{
+    background-image: url(../images/apps.jpg);
+}
+
+#site-contact > header{
+    background-image: url(../images/inicio.jpg);
+}
+
+/*** Fin de la definicion ****/
+
+/*** CSS para los textos y encabezados de las secciones por cada page ****/
+
+.section-index-text-headers {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-index-text {
+    text-align: center;
+}
+
+/*** Fin de la definicion ****/
+
+/*** CSS para los botones ****/
+
+#btn-visit-portafolio {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#btn-visit-contactar {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*** Fin de la definicion ****/
+
+
+
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
+
+.footer {
+    height: 350px;
+    background-color: #3a46f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+/* change the color of active or hovered links */
+a {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #007bff;
+}
