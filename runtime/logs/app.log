@@ -1,0 +1,2725 @@
+2020-02-05 19:57:15 [::1][-][-][error][Error] Error: Class 'kv4nt\owlcarousel\OwlCarouselWidget' not found in C:\Users\stescobedo\PhpstormProjects\plexsys\views\site\portfolio.php:38
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\stesco...', Array)
+#2 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\stesco...', Array, Object(app\controllers\SiteController))
+#3 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('portfolio', Array, Object(app\controllers\SiteController))
+#4 C:\Users\stescobedo\PhpstormProjects\plexsys\controllers\SiteController.php(53): yii\base\Controller->render('portfolio')
+#5 [internal function]: app\controllers\SiteController->actionPortfolio()
+#6 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('portfolio', Array)
+#9 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/portfolio', Array)
+#10 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2020-02-05 19:57:14 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/contact'
+    'HTTP_COOKIE' => '_csrf=9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '52350'
+    'REDIRECT_URL' => '/plexsys/web/site/portfolio'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/site/portfolio'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1580929034.933
+    'REQUEST_TIME' => 1580929034
+]
+2020-02-05 21:34:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/@web/images/imf-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/@web/image...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-05 21:34:10 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/index'
+    'HTTP_COOKIE' => '_csrf=9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '54206'
+    'REDIRECT_URL' => '/plexsys/web/site/@web/images/imf-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/site/@web/images/imf-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1580934850.775
+    'REQUEST_TIME' => 1580934850
+]
+2020-02-05 21:34:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/@web/images/contacto.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/@web/image...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-05 21:34:40 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/index'
+    'HTTP_COOKIE' => '_csrf=9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '54214'
+    'REDIRECT_URL' => '/plexsys/web/site/@web/images/contacto.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/site/@web/images/contacto.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1580934880.009
+    'REQUEST_TIME' => 1580934880
+]
+2020-02-05 21:34:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/imf-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('images/imf-foot...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-05 21:34:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/index'
+    'HTTP_COOKIE' => '_csrf=9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '54221'
+    'REDIRECT_URL' => '/plexsys/web/images/imf-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/images/imf-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1580934898.356
+    'REQUEST_TIME' => 1580934898
+]
+2020-02-05 21:52:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/@web/image...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-05 21:52:12 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/index'
+    'HTTP_COOKIE' => '_csrf=9484f6979223c1d83acc528d37eb2148dbb035411cc51721007bf9b2b3bb5a81a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22oEWYxdl4Xsj_PuXPNBMmdWlh1n2Ji5Tz%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '54383'
+    'REDIRECT_URL' => '/plexsys/web/site/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/site/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1580935932.177
+    'REQUEST_TIME' => 1580935932
+]
+2020-02-07 02:50:50 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-07 02:50:50 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '60812'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581040250.118
+    'REQUEST_TIME' => 1581040250
+]
+2020-02-07 02:51:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-07 02:51:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '60818'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581040297.618
+    'REQUEST_TIME' => 1581040297
+]
+2020-02-07 02:52:02 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-07 02:52:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '60828'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581040322.419
+    'REQUEST_TIME' => 1581040322
+]
+2020-02-07 02:53:17 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-07 02:53:17 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '60838'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581040397.165
+    'REQUEST_TIME' => 1581040397
+]
+2020-02-07 03:24:53 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-07 03:24:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '25122'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581042293.64
+    'REQUEST_TIME' => 1581042293
+]
+2020-02-07 03:31:53 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-07 03:31:53 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=b03b59bd6deb79bf3293de23bf115a3e8f98d0f7a0bb81323d6a7032750af9c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220-2B8EQr8nUiz-iXvU8_MNGaOH6BqAKC%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '25312'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581042713.277
+    'REQUEST_TIME' => 1581042713
+]
+2020-02-11 23:54:56 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-11 23:54:56 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55316'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581461696.005
+    'REQUEST_TIME' => 1581461696
+]
+2020-02-11 23:57:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-11 23:57:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'd380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=d380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55391'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581461857.283
+    'REQUEST_TIME' => 1581461857
+]
+2020-02-11 23:59:58 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-11 23:59:58 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'd380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=d380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55465'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581461998.333
+    'REQUEST_TIME' => 1581461998
+]
+2020-02-12 00:00:15 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:00:15 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'd380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=d380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55468'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462015.401
+    'REQUEST_TIME' => 1581462015
+]
+2020-02-12 00:00:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:00:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'd380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=d380436c168ae9ad7b58cd1a7328bdc57f88fe055969005088f798cbb4bcddeca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22z6pk24WfLA6r13SVEnm5C_LxI_2UJqUY%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55473'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462040.195
+    'REQUEST_TIME' => 1581462040
+]
+2020-02-12 00:00:49 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:00:49 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55478'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462049.002
+    'REQUEST_TIME' => 1581462049
+]
+2020-02-12 00:01:40 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:01:40 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55498'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462100.277
+    'REQUEST_TIME' => 1581462100
+]
+2020-02-12 00:02:01 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:02:01 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55529'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462121.12
+    'REQUEST_TIME' => 1581462121
+]
+2020-02-12 00:02:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:02:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55540'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462157.537
+    'REQUEST_TIME' => 1581462157
+]
+2020-02-12 00:02:49 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:02:49 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55546'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462169.205
+    'REQUEST_TIME' => 1581462169
+]
+2020-02-12 00:08:21 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:08:20 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55650'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462500.864
+    'REQUEST_TIME' => 1581462500
+]
+2020-02-12 00:08:54 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:08:54 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55659'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462534.51
+    'REQUEST_TIME' => 1581462534
+]
+2020-02-12 00:12:07 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:12:07 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55673'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462727.034
+    'REQUEST_TIME' => 1581462727
+]
+2020-02-12 00:12:32 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:12:32 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55685'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462752.121
+    'REQUEST_TIME' => 1581462752
+]
+2020-02-12 00:15:02 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:15:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55699'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462902.213
+    'REQUEST_TIME' => 1581462902
+]
+2020-02-12 00:16:19 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:16:19 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55713'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581462979.396
+    'REQUEST_TIME' => 1581462979
+]
+2020-02-12 00:17:11 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:17:11 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55723'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581463031.555
+    'REQUEST_TIME' => 1581463031
+]
+2020-02-12 00:17:24 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:17:24 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55730'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581463044.215
+    'REQUEST_TIME' => 1581463044
+]
+2020-02-12 00:19:14 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:19:14 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_COOKIE' => '_csrf=f7bf2c97f57b3159aae44bf95950ca19cd9252de46565f1a801af8a7cdcf2e90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DZNCZ0GxSzhbAbhhL5KQ4whFjsx5andb%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55740'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581463154.488
+    'REQUEST_TIME' => 1581463154
+]
+2020-02-12 00:19:34 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/img-footer.png". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/img...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:19:34 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '55745'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/img-footer.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/img-footer.png'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581463174.365
+    'REQUEST_TIME' => 1581463174
+]
+2020-02-12 00:27:55 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "@web/images/f-a.jpg". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('@web/images/f-a...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 00:27:55 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9'
+    'HTTP_COOKIE' => '_csrf=42c654f396f588b12806eb375e9cd4f23032a9b218c9b7b70745b71bab1c1432a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tt8fn_XxD4GtbvdLwpcn06A4GhbvV67Y%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '56032'
+    'REDIRECT_URL' => '/plexsys/web/@web/images/f-a.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/@web/images/f-a.jpg'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581463675.533
+    'REQUEST_TIME' => 1581463675
+]
+2020-02-12 22:43:51 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/f-a.jpg". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('images/f-a.jpg', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 22:43:50 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PM-TabPrimary' => '101010010'
+    'singleSignOn' => '0'
+    'ys-admin-tabpanel' => 'o:activeTab=n%3A2'
+    '_csrf' => '96424f0404d82471788e821791a243d1db1a83c610d499848fa9cfd62fde6ee1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Au1r6NpIKcULFfOb_rYinx9BmmW10Q0G\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/contact'
+    'HTTP_COOKIE' => 'PM-TabPrimary=101010010; singleSignOn=0; ys-admin-tabpanel=o%3AactiveTab%3Dn%253A2; _csrf=96424f0404d82471788e821791a243d1db1a83c610d499848fa9cfd62fde6ee1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Au1r6NpIKcULFfOb_rYinx9BmmW10Q0G%22%3B%7D'
+    'HTTP_IF_MODIFIED_SINCE' => 'Tue, 11 Feb 2020 23:24:19 GMT'
+    'HTTP_IF_NONE_MATCH' => '\"c7c-59e5527bf7b20\"'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '2312'
+    'REDIRECT_URL' => '/plexsys/web/images/f-a.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/images/f-a.jpg'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581543830.549
+    'REQUEST_TIME' => 1581543830
+]
+2020-02-12 22:43:51 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/img-1.jpg". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('images/img-1.jp...', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 22:43:50 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PM-TabPrimary' => '101010010'
+    'singleSignOn' => '0'
+    'ys-admin-tabpanel' => 'o:activeTab=n%3A2'
+    '_csrf' => '96424f0404d82471788e821791a243d1db1a83c610d499848fa9cfd62fde6ee1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Au1r6NpIKcULFfOb_rYinx9BmmW10Q0G\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/contact'
+    'HTTP_COOKIE' => 'PM-TabPrimary=101010010; singleSignOn=0; ys-admin-tabpanel=o%3AactiveTab%3Dn%253A2; _csrf=96424f0404d82471788e821791a243d1db1a83c610d499848fa9cfd62fde6ee1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Au1r6NpIKcULFfOb_rYinx9BmmW10Q0G%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '2311'
+    'REDIRECT_URL' => '/plexsys/web/images/img-1.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/images/img-1.jpg'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581543830.538
+    'REQUEST_TIME' => 1581543830
+]
+2020-02-12 22:45:17 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "images/f-a.jpg". in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('images/f-a.jpg', Array)
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-02-12 22:45:17 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PM-TabPrimary' => '101010010'
+    'singleSignOn' => '0'
+    'ys-admin-tabpanel' => 'o:activeTab=n%3A2'
+    '_csrf' => '96424f0404d82471788e821791a243d1db1a83c610d499848fa9cfd62fde6ee1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Au1r6NpIKcULFfOb_rYinx9BmmW10Q0G\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0'
+    'HTTP_ACCEPT' => 'image/webp,*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/contact'
+    'HTTP_COOKIE' => 'PM-TabPrimary=101010010; singleSignOn=0; ys-admin-tabpanel=o%3AactiveTab%3Dn%253A2; _csrf=96424f0404d82471788e821791a243d1db1a83c610d499848fa9cfd62fde6ee1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Au1r6NpIKcULFfOb_rYinx9BmmW10Q0G%22%3B%7D'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '2324'
+    'REDIRECT_URL' => '/plexsys/web/images/f-a.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/images/f-a.jpg'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1581543917.32
+    'REQUEST_TIME' => 1581543917
+]
+2020-02-26 01:08:59 [::1][-][-][error][Error] Error: Class 'kv4nt\owlcarousel\OwlCarouselWidget' not found in C:\Users\stescobedo\PhpstormProjects\plexsys\views\site\portfolio.php:38
+Stack trace:
+#0 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\stesco...', Array)
+#2 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\Users\\stesco...', Array, Object(app\controllers\SiteController))
+#3 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('portfolio', Array, Object(app\controllers\SiteController))
+#4 C:\Users\stescobedo\PhpstormProjects\plexsys\controllers\SiteController.php(53): yii\base\Controller->render('portfolio')
+#5 [internal function]: app\controllers\SiteController->actionPortfolio()
+#6 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('portfolio', Array)
+#9 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/portfolio', Array)
+#10 C:\Users\stescobedo\PhpstormProjects\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\stescobedo\PhpstormProjects\plexsys\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2020-02-26 01:08:59 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '01f60fcfd9ec0e000c61973d4c2d6f7150ce0d9023fa7686ade9802e9190cba6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"T8TYVM2zdA2hQCrTFyQ9fFb4qhqU0MSa\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 Edg/80.0.361.57'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_REFERER' => 'http://localhost/plexsys/web/site/apps'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => '_csrf=01f60fcfd9ec0e000c61973d4c2d6f7150ce0d9023fa7686ade9802e9190cba6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22T8TYVM2zdA2hQCrTFyQ9fFb4qhqU0MSa%22%3B%7D'
+    'PATH' => 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Java\\jdk-13.0.1\\bin\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files\\dotnet\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\ProgramData\\chocolatey\\bin;C:\\Go\\bin;C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.6.3\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.1\\bin;;C:\\Users\\stescobedo\\AppData\\Roaming\\npm;C:\\Users\\stescobedo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stescobedo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\stescobedo\\.dotnet\\tools;C:\\Program Files (x86)\\Midnight Commander;C:\\Users\\stescobedo\\go\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2019.3.3\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/plexsys/web/index.php'
+    'REMOTE_PORT' => '1830'
+    'REDIRECT_URL' => '/plexsys/web/site/portfolio'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/plexsys/web/site/portfolio'
+    'SCRIPT_NAME' => '/plexsys/web/index.php'
+    'PHP_SELF' => '/plexsys/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1582675739.745
+    'REQUEST_TIME' => 1582675739
+]
